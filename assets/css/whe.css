@@ -277,4 +277,47 @@ transition: 1s;
          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
          transform: translate3d(-40%, 0, -250px);
        }
-      
+       .design {
+         background-image: linear-gradient(to left top, #fd562a, rgba(211, 40, 83, .7), rgba(148, 31, 95, .8), #4f2155, #161634);
+         border-radius: 0px 0px 20px 0px;
+         width: 330px;
+         height: 180px;
+     }
+     
+     
+     .outer {
+         box-shadow: 10px 10px #fd562a;
+     }
+     
+     .inner {
+         background-image: linear-gradient(to left top, #fd562a, rgba(211, 40, 83, .7), rgba(148, 31, 95, .8), #4f2155, #161634);
+     
+     }
+      .btn-area1 :hover{
+         color:red;
+         background-color: white;
+      }
+.icons-hover{
+   width: 29px;
+   height: 21px;
+   border: 1px solid #fd562a ;
+   color: #fd562a;
+   border-radius: 5px;
+}
+.icons-hover:hover{
+  background-color: rgb(250, 31, 31);
+  color:white;
+transition: 1s;
+}
+.text-center{
+  list-style: none;
+}
+.text-center a:hover{
+  color: #fd562a;
+ }
+.list{
+   list-style: none;
+ }
+ .list:hover a{
+   color: #fd562a;
+ }
