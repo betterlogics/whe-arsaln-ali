@@ -28,6 +28,31 @@ animation-duration: alternate;
 
 
 }
+.navbar-nav .btn{
+   width: 115px;
+   margin: auto;
+   margin-top: 5px;
+background-color:rgb(190, 5, 5) ;
+color: white;
+
+}
+.navbar-nav .btn:hover{
+   
+background-color:white ;
+color:rgb(112, 14, 14) ;
+
+}
+.col-md-6 .btn{
+   background-color:rgb(112, 14, 14);
+   width: 115px;
+   margin: auto;
+   margin-top: 5px;
+   color: white;
+}
+.col-md-6 .btn:hover{
+  background-color: #ffffff;
+  color:rgb(190, 5, 5) ;
+}
 
 
     /* this animation of lion  */
@@ -188,12 +213,12 @@ animation-duration: alternate;
       margin:350px 10px 0 88px;
       }
      h4:hover{
-color: rgb(231, 7, 7);
+color: rgb(190, 5, 5);
 transition: 1s;
       }
       
       .box-area:hover{
-         box-shadow: -6px 0px 3px 0px rgb(243, 6, 6);
+         box-shadow: -6px 0px 3px 0px rgb(190, 5, 5);
          border-left: #ee0000;
         transition: 1s all;
         border-radius: 20px;
@@ -317,7 +342,7 @@ transition: 1s;
      
      }
       .btn-area1 :hover{
-         color:red;
+         color:rgb(190, 5, 5);
          background-color: white;
       }
 .icons-hover{
@@ -341,7 +366,7 @@ transition: 1s;
    margin-right: 22px;
  }
  .list a:hover{
-   color: #ee0000 !important;
+   color: rgb(190, 5, 5) !important;
  }
  
 
