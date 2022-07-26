@@ -20,7 +20,7 @@ animation-duration: alternate;
       transform: translatey(0);
   }
   50%{
-      transform: translatey(-20% );
+      transform: translatey(-10% );
   }
   100%{
    transform: translatey(0 );
