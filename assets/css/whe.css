@@ -29,6 +29,7 @@ animation-duration: alternate;
 
 }
 
+
     /* this animation of lion  */
     .title {
         text-align: center;
@@ -337,6 +338,7 @@ transition: 1s;
 
 .list{
    list-style: none;
+   margin-right: 22px;
  }
  .list a:hover{
    color: #ee0000 !important;
