@@ -9,6 +9,25 @@ color: red!important;
     color: rgb(253, 122, 74);
     text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
 }
+/* mint  */
+.pb-5 img{
+width: 80%;
+animation: mint 5s infinite;
+animation-duration: alternate;
+}
+@keyframes mint{
+   0%{
+      transform: translatey(0);
+  }
+  50%{
+      transform: translatey(-20% );
+  }
+  100%{
+   transform: translatey(0 );
+}
+
+
+}
 
     /* this animation of lion  */
     .title {
@@ -322,3 +341,61 @@ transition: 1s;
  .list a:hover{
    color: #ee0000 !important;
  }
+ 
+
+.slider{
+   height: 250px;
+   margin: auto;
+   position: relative;
+   width: 90%;
+   display: grid;
+   place-items: center;
+
+}
+/* animation of end  */
+.contaner {
+   width: 85vmin;
+   position: relative;
+   transform: translate(-50%,-50%);
+ top: 48%;
+   left: 50%;
+
+   overflow: hidden;
+   border: 8px solid white;
+   border-radius: 8px;
+   box-shadow: 10px 25px 30px rgb(5, 5, 39) ;
+   }
+   .wapper{
+       width: 100%;
+       display: flex;
+       animation: slide 16s infinite;
+   }
+   @keyframes slide{
+       0%{
+           transform: translateX(0);
+       }
+       25%{
+           transform: translateX(0);
+       }
+       30%{
+           transform: translateX(-100%);
+       }
+       50%{
+           transform: translateX(-100%);
+       }
+       55%{
+           transform: translateX(-200%);
+       }
+       75%{
+           transform: translateX(-200%);
+       }
+       80%{
+           transform: translateX(-300%);
+       }
+       100%{
+           transform: translateX(-300%);
+       }
+   }
+   .wapper img{
+       width: 100%;
+   }
